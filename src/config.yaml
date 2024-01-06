@@ -1,0 +1,29 @@
+# Configuration file for ClutterCure
+
+version: 1.0
+
+# Path to the directory that needs organization
+path_to_organise: "/path/to/your/directory"
+
+# Time zone information for logging - See the 'supported_time_zones.txt' under 'help' directories to find the list of all supported time zones. By Default it's `Asia/Kolkata`.
+time_zone: "Asia/Kolkata"
+
+# Log file paths
+logs:
+  error_log: "/path/to/error/log/clutter_error.log"
+  main_log: "/path/to/main/log/clutter_cure.log"
+
+# File types and their corresponding extensions
+file_types:
+  Images: ['img', 'jpeg', 'gif', 'jpg', 'bmp', 'png']
+  PDFs: ['pdf']
+  Docs: ['doc', 'docx']
+  Videos: ['mov', 'mp4']
+  Audio: ['mp3', 'wav', 'flac']
+  Spreadsheets: ['xls', 'xlsx', 'csv']
+  Presentations: ['ppt', 'pptx']
+  Archives: ['zip', 'tar', 'gz']
+  Code: ['py', 'java', 'cpp', 'js']
+  Text: ['txt', 'md']
+  Fonts: ['ttf', 'otf']
+  Executables: ['exe', 'bin']
